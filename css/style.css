@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #343d4d;
+  color: #fff;
+}
+
+.content {
+  width: 430px;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#area {
+  width: 302.4px;
+  border: 1px solid #ffffff;
+  font-size: 0;
+  align-items: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  display: inline-block;
+  font-size: 80px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.cell:hover {
+  background-color: #46546b;
+}
+
+.currentPlayer {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.stat table {
+  border-collapse: collapse;
+}
+
+.stat table,
+.stat th,
+.stat td {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  text-align: center;
+}
